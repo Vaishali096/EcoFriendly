@@ -1,0 +1,114 @@
+body
+{
+    background-color:white;
+    font-size: 120%;
+    font-family:'open Sans', sans-serif;
+    margin:2%;
+}
+.wrapper
+{
+    background-color: white;
+    max-width: 1500px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+header .brand
+{
+    color:white;
+    font-family:'pacifico','Georgia';
+    font-size: 1.7em;
+    padding: 1em;
+}
+header .brand span{
+    color: white;
+    font-family:'Open Sans', 'Sans-serif';
+    font-size: 1.7em;
+    padding: 1em;
+}
+/*#hero{
+    min-height: 400px;
+    background: #68bbal;  center no-repeat;
+}*/
+footer{
+    text-align: center;
+    padding: 1em;
+    font-size:0.9em;
+    clear:both;
+    background-color: #b4d787;
+}
+main{
+    overflow:hidden;
+    display: flex;
+    padding: 1.5em;
+}
+#blogContent{
+    width: 70%;
+
+}
+aside{
+    background-color: white;
+    padding: 1.8em;
+    box-sizing:border-box;
+    margin-bottom: 0;
+    float:right;
+    width:30%;
+    height:20%;
+    text-align: center;
+    margin-top: 80px;
+    border-color:#b4d787;
+}
+aside.section h3{
+    background-color: #b4d787;
+    padding: 1.1em;
+    margin-top: 0;
+    margin-bottom: -50px;
+    color:#47ab43;
+}
+a{
+    color: #47ab43;
+}
+a:hover{
+    color: #003019;
+}
+aside ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+aside a{
+    padding: 0.8em 0;
+    display: block;
+}
+article h2{
+    margin-bottom: 0;
+    font-size: 1.7em;
+    color: #333;
+    padding: 0;
+    margin-top: -50px;
+}
+article h3{
+    margin-bottom: 0px;
+    font-size: 1.7em;
+    color: #333;
+    padding: 0;
+    margin-top: 0px;
+    font-style: italic;
+}
+article{
+    margin-bottom: 3.7em;
+    margin-top: 3.7em;
+}
+header{
+    background-color: #b4d787;
+    text-align: center;
+    padding: 1em;
+    background-image: url(https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.image{
+display: flex;
+flex-direction: row;
+align-content:stretch;
+flex-shrink: 0;
+}
